@@ -250,15 +250,12 @@ h2 {
 
 .box {
     background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
     padding: 20px;
-    border-radius: 15px;
-    width: 200px;
-    height: 80px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    display: flex; 
-    flex-direction: column; /* Stack content vertically */
-    justify-content: space-between; /* Push content to top and bottom */
+    margin: 20px auto;
+    max-width: 800px; /* Match the width of other content */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
 .box h3 {
