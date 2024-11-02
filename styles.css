@@ -248,6 +248,37 @@ h2 {
     text-decoration: underline;
 }
 
+/* Box Styling for Detailed Content */
+.box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px; /* Matches the rounded corners of .box */
+    width: 100%; /* Full width within the max-width container */
+    max-width: 800px; /* Limits width for consistency with the layout */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Similar shadow effect */
+    text-align: left; /* Left align for a more text-document style */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px auto; /* Space between boxes and center align */
+}
+
+.box h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    margin: 0 0 10px; /* Adds space below the title */
+    text-align: left;
+}
+
+.box p {
+    margin: 0;
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    flex-grow: 1;
+}
+
 .box .learn-more {
     color: #6a994e;
     text-decoration: none;
