@@ -254,7 +254,7 @@ h2 {
     border-radius: 8px;
     padding: 20px;
     margin: 20px auto; /* Centers box and adds space between each */
-    max-width: 600px; /* Limits the width for a clean, centered look */
+    max-width: 800px; /* Limits the width for a clean, centered look */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds subtle shadow for depth */
 }
 
