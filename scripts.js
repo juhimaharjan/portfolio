@@ -4,9 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const navBar = document.querySelector('.nav-bar');
     
     // Skip animation expect index.html
-    console.log("Current pathname:", window.location.pathname);
-    if (window.location.pathname !== '/index.html' && window.location.pathname !== '/') {
-        console.log("Not index.html - applying sticky classes directly");
+    if (window.location.pathname === '/audit.html' || window.location.pathname === '/banking.html' || window.location.pathname === '/education.html' || window.location.pathname === 'it.html' || window.location.pathname === '/entrepreneur.html' || window.location.pathname === '/tax.html' || window.location.pathname === '/portfolio.html' || window.location.pathname === '/elevator.html') {
         // Skip animation
         logoContainer.classList.add('sticky');
         logo.classList.add('shrunk-logo');
