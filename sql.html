@@ -1,1 +1,68 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/miffy.png" type="image/png"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&family=Playwrite+CU:wght@100..400&display=swap" rel="stylesheet">
+</head>
+<body id="portfolio">
+    <div class="logo-container sticky">
+        <a href="index.html">
+            <img src="images/juhi.png" alt="Logo" id="logo" class="shrunk-logo">
+        </a>
+        <div class="nav-bar show">
+            <a href="index.html#about" class="nav-item">
+                <img src="images/about.png" alt="About" class="about-icon">
+            </a>
+            <a href="index.html#experience" class="nav-item">
+                <img src="images/experience.png" alt="Experience" class="experience-icon">
+            </a>
+            <a href="index.html#portfolio" class="nav-item">
+                <img src="images/portfolio.png" alt="Portfolio" class="portfolio-icon">
+            </a>
+            <a href="index.html#contact" class="nav-item">
+                <img src="images/contact.png" alt="Contact" class="contact-icon">
+            </a>
+        </div>
+    </div>
+
+    <div id="content">
+        <section id="learn-more">
+            <h2>Euphoric Clay & Pots</h2>
+            <h3 style="font-weight: bold; font-size: 1.5em;"> Inventory & Sales Management System </h3>
+            <p> 
+                <strong>The Problem:</strong> Euphoric Clay, a pottery business, was relying on manual spreadsheets to track inventory and sales. This led to data errors, overselling out-of-stock items, and a lack of insight into business performance.
+            </p>
+            <p>
+                <strong>The Solution:</strong> I designed and built a live, full-stack web application to solve these issues. I moved the business from spreadsheets to a relational database (3rd Normal Form) to ensure data integrity. The system allows staff to manage products and customers (CRUD) and automatically generates "Low Inventory" and "Top Sales" reports for decision-making.
+            </p>
+            <div style="text-align: center;">
+                <video id="myVideo" width="800" autoplay muted loop>
+                    <source src="images/framer.mp4.mov" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+ 
+                <h3>Technologies Used:</h3>
+                <div style="margin-top: 10px;">
+                <p><strong>Backend:</strong> PHP, MySQL, SQL (PDO)</p>
+                <p><strong>Frontend:</strong> HTML, CSS</p>
+                <p><strong>Tools:</strong> Hostinger, phpMyAdmin, GitHub</p>
+            </div>
+
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Juhi Maharjan. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
